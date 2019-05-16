@@ -1,6 +1,6 @@
 import {
   RECEIVE_TWEETS
-} from '../actions/users'
+} from '../actions/tweets'
 
 export default function tweets(state = {}, action) {
   switch (action.type) {
