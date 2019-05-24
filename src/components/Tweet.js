@@ -16,6 +16,7 @@ class Tweet extends Component {
     } = tweet
 
 
+
     return (
       <div className='tweet'>
         <img
