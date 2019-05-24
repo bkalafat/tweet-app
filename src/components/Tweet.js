@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import {connect } from 'react-redux'
 import { formatTweet } from '../utils/helpers'
-import { TiArrowBackOutline, TiHeartOutline, TiHeartFullOutline} from 'react-icons/ti/index'
 
 class Tweet extends Component {
   render () {
@@ -12,7 +11,7 @@ class Tweet extends Component {
     }
 
     const {
-      name, avatar, timestamp, text, hasLiked, likes, replies, id, parent
+      name, avatar
     } = tweet
 
 
