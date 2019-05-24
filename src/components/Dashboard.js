@@ -13,7 +13,6 @@ class Dashboard extends Component {
               <Tweet id={id}/>
             </li>
           ))}
-
         </ul>
       </div>
     )
