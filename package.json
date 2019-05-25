@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.2.0",
     "react-icons": "^3.7.0",
     "react-redux": "^7.0.3",
+    "react-router-redux": "^5.0.0-alpha.9",
     "react-scripts": "1.1.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
